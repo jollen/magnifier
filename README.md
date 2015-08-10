@@ -1,1 +1,1 @@
-This is a magnifier plugi!
+This is a magnifier plugin!
