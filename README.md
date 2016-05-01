@@ -7,15 +7,15 @@
 html:
      `<div class="zwrap"><img class="zimg" src="images/02.jpg" /></div>`
 js:
-    `<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>`
-    `<script src="zmagnifier.js"></script>`
-    `<script>`
-    `zConfig({`
-      `zclass: 'zwrap',`
-      `width: 300,`
-      `height: 300`
-    `});`
-`</script>`
+    `<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script src="zmagnifier.js"></script>
+    <script>
+     zConfig({
+      zclass: 'zwrap',
+      width: 300,
+      height: 300
+    });
+</script>`
 
 ###参数说明
   zclass: 'zwrap'   //img父级的class
