@@ -7,15 +7,15 @@
 html:
      `<div class="zwrap"><img class="zimg" src="images/02.jpg" /></div>`
 js:
-    `<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-    <script src="zmagnifier.js"></script>
-    <script>
-     zConfig({
-      zclass: 'zwrap',
-      width: 300,
-      height: 300
-    });
-</script>`
+     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+     <script src="zmagnifier.js"></script>
+     <script>
+     `zConfig({
+          zclass: 'zwrap',
+          width: 300,
+          height: 300
+     });`
+     </script>
 
 ###参数说明
   zclass: 'zwrap'   //img父级的class
@@ -23,4 +23,4 @@ js:
   height: 300   放大镜的高度
   
 ###兼容性
-  ie10+，ff, chrome..
+  ie10+,ff, chrome..
