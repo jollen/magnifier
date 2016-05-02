@@ -6,21 +6,21 @@
 ###调用
      html:
      
-     `<div class="zwrap"><img class="zimg" src="images/02.jpg" /></div>`
+     <div class="zwrap"><img class="zimg" src="images/02.jpg" /></div>
      
      js:
      
-     `<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>`
+     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
      
-     `<script src="zmagnifier.js"></script>`
+     <script src="zmagnifier.js"></script>
      
-     `<script>
+     <script>
           zConfig({
                zclass: 'zwrap',
                width: 300,
                height: 300
           });
-     </script>`
+     </script>
 
 ###参数说明
      zclass: 'zwrap'   //img父级的class
