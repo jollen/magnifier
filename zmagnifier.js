@@ -97,7 +97,7 @@
 			_this.moveEvent();
 		};
 	};
-	window.config = function(opts){
+	window.zConfig = function(opts){
 		return new Zmagnifier(opts);
 	};
 })($);
